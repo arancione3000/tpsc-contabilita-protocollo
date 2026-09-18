@@ -125,6 +125,85 @@ Quando l'operazione rientra in una di queste categorie, presta particolare atten
 - **Costituzione dell'azienda e conferimenti** del titolare/soci.
 - **Scritture di assestamento** (ratei, risconti, ammortamenti): trattale solo se l'esercizio le richiede esplicitamente.
 
+
+### 4.1 Regole anti-errore su trasporti, anticipazioni, interessi e bollo
+
+Queste regole sono state aggiunte dopo il controllo completo dell'esercizio 6.20 e servono a evitare errori già commessi in passato.
+
+#### A. Trasporto e anticipazioni: costruire sempre la timeline prima della scrittura
+
+Prima di registrare un trasporto, separa obbligatoriamente questi elementi:
+
+1. chi sostiene economicamente il costo;
+2. chi paga materialmente il vettore;
+3. a chi è intestata la fattura del vettore;
+4. se il pagamento è effettuato **in nome e per conto** della controparte;
+5. se l'importo viene poi recuperato/riaddebitato.
+
+Regole operative:
+
+- Se il vettore fattura direttamente all'impresa, il costo di trasporto e la relativa IVA si registrano **una sola volta** dalla fattura del vettore.
+- Se un fornitore paga quella fattura **in nome e per conto** dell'impresa, il successivo rimborso al fornitore **non crea un secondo costo e non crea una seconda IVA**: si chiude il debito verso il vettore e si trasferisce la somma nel debito verso il fornitore che ha anticipato.
+- Se invece è l'impresa ad anticipare in contanti o banca una spesa **in nome e per conto del cliente**, usare il conto autorizzato **05.03 Clienti c/costi anticipati** al momento dell'uscita; quando la somma viene recuperata in fattura, il medesimo conto si chiude. Non trasformare il rimborso in ricavo di vendita.
+- Prima di confermare la scrittura, verifica che nessuno stesso trasporto compaia due volte come costo o che la stessa IVA sia stata detratta due volte.
+
+#### B. Distinguere con precisione: imponibile, escluso, esente
+
+Non usare mai come sinonimi “fuori IVA”, “escluso” ed “esente”.
+
+- **Spese accessorie** (es. trasporto, imballaggio) effettuate dal cedente/prestatore o per suo conto e a sue spese, quando accessorie a un'operazione imponibile, seguono l'operazione principale e concorrono alla base imponibile IVA (art. 12 DPR 633/1972).
+- **Anticipazioni documentate in nome e per conto della controparte** sono **escluse dalla base imponibile** (art. 15, c. 1, n. 3 DPR 633/1972).
+- **Interessi moratori e penalità per ritardi/irregolarità** sono **esclusi dalla base imponibile** (art. 15, c. 1, n. 1 DPR 633/1972).
+- **Interessi per una dilazione di pagamento concordata** sono invece **operazioni esenti IVA**, perché rientrano nelle operazioni finanziarie/dilazioni di pagamento dell'art. 10, c. 1, n. 1 DPR 633/1972. In questo caso la parola corretta è “esente”, non “escluso”.
+
+Prima di scrivere “esente” o “escluso”, individua quindi la causa giuridica concreta.
+
+#### C. Interessi calcolati a giorni: non assumere 365 o 360 senza controllo
+
+Se la traccia indica tasso e giorni ma **non specifica la convenzione temporale**:
+
+1. controlla prima gli esempi svolti dello stesso libro/capitolo;
+2. se il libro usa anno civile: formula con denominatore **36.500**;
+3. se il libro usa anno commerciale: formula con denominatore **36.000**;
+4. se la convenzione non è ricavabile dal materiale disponibile, **non scegliere in silenzio**: dichiara l'ambiguità e chiedi conferma allo studente oppure presenta entrambi i risultati.
+
+Esempio generale:
+- anno civile: I = C × r × g / 36.500;
+- anno commerciale: I = C × r × g / 36.000.
+
+La normativa IVA stabilisce il trattamento fiscale degli interessi, ma **non decide la convenzione didattica 360/365 usata dal libro**.
+
+#### D. Imposta di bollo: separare regola fiscale e scelta del conto
+
+Quando compare il bollo:
+
+- verifica su fonte ufficiale l'importo e la soglia applicabili; al controllo effettuato nel 2026, per le fatture interessate il bollo è di **2 euro** e la soglia rilevante è **77,47 euro**;
+- non dedurre automaticamente il conto contabile dalla sola regola fiscale;
+- lato acquirente, un bollo addebitato può essere rilevato come costo usando il conto autorizzato previsto dal manuale;
+- lato venditore, il **recupero del bollo dal cliente** può essere trattato diversamente a seconda dell'impostazione didattica del libro (ad esempio come debito fiscale oppure come recupero/nettizzazione del costo). Prima di scegliere, controlla un esempio già svolto dello stesso libro;
+- se il manuale non chiarisce la convenzione, dichiarare il punto come **scelta contabile da verificare** e non presentarla come obbligo univoco.
+
+#### E. Controllo dei mastri IVA
+
+Quando si costruisce il mastro **16.01 IVA c/liquidazione**, controllare non solo gli importi ma anche la colonna:
+
+- giro IVA a credito → **IVA c/liquidazione in Dare**;
+- giro IVA a debito → **IVA c/liquidazione in Avere**;
+- se emerge debito IVA, chiusura verso **14.03 Debiti per IVA** → **IVA c/liquidazione in Dare**.
+
+Un errore di formattazione Dare/Avere nel mastro è un errore contabile anche se il totale numerico è corretto.
+
+#### F. Diagnosi obbligatoria prima della risposta
+
+Se una soluzione precedente è stata corretta, individua sempre **perché** era nata l'errore e trasforma la causa in un controllo preventivo. In particolare, evitare:
+
+- duplicazione dello stesso costo/IVA quando c'è un'anticipazione;
+- confusione tra debito verso vettore e debito verso fornitore che anticipa;
+- uso indistinto di “esente” ed “escluso”;
+- scelta automatica di 365 giorni senza verificare la convenzione del libro;
+- scelta automatica del conto del bollo senza controllare l'impostazione didattica;
+- mastri formalmente sbagliati anche quando i totali quadrano.
+
 ## 5. Piano dei conti autorizzato
 
 Il piano dei conti autorizzato è **quello fotografato nelle pagine 588-589** e trascritto integralmente in:
@@ -169,6 +248,11 @@ Non fingere una verifica online se non è stata effettivamente eseguita. Se l'ac
 - [ ] Se l'operazione ha implicazioni normative specifiche, sono state verificate su fonte aggiornata?
 - [ ] Ogni scrittura ha una descrizione chiara e coerente con l'operazione?
 - [ ] Ho dichiarato eventuali assunzioni o dati mancanti?
+- [ ] Se ci sono interessi a giorni, ho verificato se il libro usa 360 o 365 giorni invece di assumere una convenzione?
+- [ ] Ho distinto correttamente spese accessorie imponibili, anticipazioni escluse, interessi moratori esclusi e interessi di dilazione esenti?
+- [ ] Se c'è un'anticipazione di trasporto, ho verificato che costo e IVA non siano duplicati e che i debiti verso i soggetti coinvolti siano cronologicamente coerenti?
+- [ ] Se c'è un recupero del bollo, ho verificato la convenzione contabile usata dal libro prima di scegliere il conto?
+- [ ] Nei mastri IVA ho controllato anche la colonna Dare/Avere, non solo i totali?
 - [ ] Ho corretto tutti gli errori trovati prima di mostrare il risultato?
 
 **Se anche un solo punto non è soddisfatto, correggere prima di rispondere.**
